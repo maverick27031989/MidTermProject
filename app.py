@@ -52,8 +52,8 @@ def create(conn):
 
 conn = pyodbc.connect(
     "Driver={SQL Server Native Client 11.0};"
-    "Server=DESKTOP-EA06L8B;"
-    "Database=call;"
+    "Server=DB SERVER NAME;"
+    "Database=DB NAME;"
     "Trusted_Connection=yes;"
 )
 
